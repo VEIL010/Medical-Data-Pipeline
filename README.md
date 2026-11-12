@@ -233,10 +233,6 @@ PASSED: vector shapes and L2 norms verified.
 생성 파일은 암호화 이전의 평문 데이터입니다. 외부 검색 서버에는 암호화한 벡터만 전달해야 합니다.
 
 ---
-
-다음 단계에서는 생성된 32차원 특징 벡터를 OpenFHE의 CKKS 방식으로 암호화하여 서버에서 복호화 없이 유사도를 계산하는 기능을 구현할 예정!!
-이후 기본 CKKS 방식과 Blind-Match의 Input Ciphertext Expansion 및 HE-C³ 최적화를 적용한 방식의 성능을 비교
-
 ## References
 
 - [UCI Heart Disease Dataset](https://archive.ics.uci.edu/dataset/45/heart+disease)
